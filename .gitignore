@@ -1,0 +1,16 @@
+.idea
+node_modules
+npm-debug.log
+.tern-project
+typings
+app/*/*.map
+dist
+.project
+/.cache/
+/.happypack/
+.cache-loader/
+yarn-error.log
+local.config.js
+dev.routes.js
+package-lock.json
+yarn.lock
