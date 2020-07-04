@@ -3,7 +3,8 @@ const webpack = require('webpack')
 const path = require('path')
 module.exports = {
   mode: 'production',
-  entry: './entry.js', //入口文件
+  entry: './src/index.ts', //入口文件
+  devtool: 'source-map',
   output: {
     //node.js中__dirname变量获取当前模块文件所在目录的完整绝对路径
     path: path.resolve(__dirname, 'dist'), //输出位置
