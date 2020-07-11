@@ -14,3 +14,5 @@ local.config.js
 dev.routes.js
 package-lock.json
 yarn.lock
+es
+lib
