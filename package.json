@@ -17,6 +17,10 @@
     "url": "https://github.com/pengfu/awesome-utils/issues"
   },
   "homepage": "https://github.com/pengfu/awesome-utils#readme",
+  "files": [
+    "lib",
+    "dist"
+  ],
   "devDependencies": {
     "@types/node": "^14.0.14",
     "babel-cli": "^6.26.0",

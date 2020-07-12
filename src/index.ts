@@ -1,2 +1,3 @@
 // this is comment
-console.log('hello world');
+import { API } from './API/index'
+export { API };
