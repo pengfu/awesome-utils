@@ -1,6 +1,6 @@
 {
-  "name": "awesome-utils",
-  "version": "1.0.0",
+  "name": "@pengfu/awesome-utils",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/pengfu/awesome-utils.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "pengfoo@126.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pengfu/awesome-utils/issues"
