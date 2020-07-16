@@ -1,5 +1,3 @@
-import { resolve } from "path"
-import { promises } from "fs"
 
 export class API {
   async _request<T>(
@@ -119,7 +117,7 @@ export class API {
           btn.disabled = false
         })
       }
-    }
+    };
 
     const promise = new Promise((resolve, reject) => {
         const adaptor = config.adaptor || API.adaptor;
@@ -155,11 +153,10 @@ export class API {
                 msg: 'xxx'
             };
             resolve(result);
-        }).finally(()={
+        }).finally(()=>{
             st && st.clearTimeout(st);
             onFinished();
-        });
-        
+        });  
     });
 
     if(timeout !== -1) {
